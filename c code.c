@@ -10,6 +10,8 @@ printf("enter the power developed");
 scanf("%f",&pd);
 printf("enter the mean effective pressure");
 scanf("%f",&mep);
+printf("enter the rpm");
+scanf("%f",&rpm);
 vs=vol/1000;
 n=(pd*60)/(mep*vs);
 nac=(rpm/2)*ns;
